@@ -17,8 +17,8 @@ new_row_loc = {'Name': 'Rose', 'Age': 20, 'City': 'Boston'}
 df.loc[len(df.index)] = pd.Series(new_row_loc)
 
 # Adding new row to df for V3
-# new_row_loc2 = {'Name': 'Alexa', 'Age': 30, 'City': 'Hoboken'}
-# df.loc[len(df.index)] = pd.Series(new_row_loc2)
+new_row_loc2 = {'Name': 'Alexa', 'Age': 30, 'City': 'Hoboken'}
+df.loc[len(df.index)] = pd.Series(new_row_loc2)
 
 # Ensure the "data" directory exists at the root level
 data_dir = 'data'
